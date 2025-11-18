@@ -1,4 +1,4 @@
-# reset_anydesk.bat
+# reset_anydesk.cmd
 @echo off & setlocal enableextensions
 title AnyDesk Reset
 
@@ -63,7 +63,7 @@ exit /b
 # README.md
 # Resetar AnyDesk – Script Automático (Windows)
 
-Este repositório contém um script em **Batch (.bat)** para redefinir configurações do **AnyDesk**, incluindo limpeza de cache, remoção de arquivos de configuração e reinicialização do serviço.
+Este repositório contém um script para redefinir configurações do **AnyDesk**, incluindo limpeza de cache, remoção de arquivos de configuração e reinicialização do serviço.
 
 O objetivo é resolver problemas comuns, como:
 - AnyDesk travando
@@ -94,13 +94,13 @@ O script executa:
 
 ## 📜 Código completo
 
-Conteúdo disponível no arquivo `reset_anydesk.bat` deste repositório.
+Conteúdo disponível no arquivo `Anydesk-Reset.cmd` deste repositório.
 
 ---
 
 ## 🚀 Como usar
 
-1. Baixe o arquivo `.bat`  
+1. Baixe o arquivo `.cmd`  
 2. Clique com o botão direito → **Executar como administrador**  
 3. Aguarde o processo  
 4. O AnyDesk será reiniciado automaticamente
@@ -114,9 +114,9 @@ Use com cautela em ambientes corporativos.
 
 # README.md
 
-# Resetar AnyDesk – Script Automático (Windows)
+# AnyDesk Reset – Script Automático (Windows)
 
-Este repositório contém um script em **Batch (.bat)** para redefinir configurações do **AnyDesk**, incluindo limpeza de cache, remoção de arquivos de configuração e reinicialização do serviço.
+Este repositório contém um script para redefinir configurações do **AnyDesk**, incluindo limpeza de cache, remoção de arquivos de configuração e reinicialização do serviço.
 
 ## 🔧 Como funciona
 - Verifica privilégios de administrador
@@ -128,7 +128,7 @@ Este repositório contém um script em **Batch (.bat)** para redefinir configura
 - Inicia o AnyDesk novamente e finaliza
 
 ## 🚀 Uso
-1. Baixe o arquivo `.bat`
+1. Baixe o arquivo `.cmd`
 2. Execute como administrador
 3. Aguarde a finalização automática
 
