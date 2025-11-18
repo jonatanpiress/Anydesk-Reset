@@ -1,5 +1,5 @@
 @echo off & setlocal enableextensions
-title Resetar AnyDesk
+title AnyDesk Reset
 
 reg query HKEY_USERS\S-1-5-19 >NUL || (
     echo Executar como administrador.
@@ -57,3 +57,4 @@ sc stop AnyDesk
 if %errorlevel% neq 1062 goto stop_any
 taskkill /f /im "AnyDesk.exe"
 exit /b
+
