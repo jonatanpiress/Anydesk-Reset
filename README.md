@@ -48,26 +48,3 @@ Conteúdo disponível no arquivo `Anydesk-Reset.cmd` deste repositório.
 
 Esse script redefinirá configurações locais do AnyDesk.  
 Use com cautela em ambientes corporativos.
-
-# README.md
-
-# AnyDesk Reset – Script Automático (Windows)
-
-Este repositório contém um script para redefinir configurações do **AnyDesk**, incluindo limpeza de cache, remoção de arquivos de configuração e reinicialização do serviço.
-
-## 🔧 Como funciona
-- Verifica privilégios de administrador
-- Encerra o serviço AnyDesk
-- Faz backup temporário do user.conf e miniaturas
-- Limpa diretórios de configuração
-- Reinicia o AnyDesk para regenerar system.conf
-- Restaura arquivos do usuário
-- Inicia o AnyDesk novamente e finaliza
-
-## 🚀 Uso
-1. Baixe o arquivo `.cmd`
-2. Execute como administrador
-3. Aguarde a finalização automática
-
-## ⚠️ Aviso
-Este script remove configurações locais do AnyDesk. Use com cautela em ambientes corporativos.
